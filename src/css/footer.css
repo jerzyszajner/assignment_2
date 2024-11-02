@@ -1,0 +1,24 @@
+/* Styles footer **********/
+.footer {
+  padding: var(--spacing-small);
+  background: var(--gradient-team-colors);
+  text-align: center;
+  ;
+}
+
+.footer__paragraph {
+  color: var(--color-text-light);
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* Styles for mobile devices and small screens **********/
+@media screen and (max-width: 560px) {
+  .footer {
+    padding: var(--spacing-xsmall) 0;
+  }
+
+  .footer__paragraph {
+    font-size: var(--font-size-xsmall);
+  }
+}

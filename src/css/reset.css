@@ -1,16 +1,16 @@
-/* Resetting the default styles */
+/* Resetting the default styles **********/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Prevent dragging for images */
+/* Prevent dragging for images **********/
 img {
     -webkit-user-drag: none;
 }
 
-/* Prevent text selection */
+/* Prevent text selection **********/
 * {
     user-select: none;
 }

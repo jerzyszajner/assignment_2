@@ -1,0 +1,50 @@
+:root {
+    /* Font sizes **********/
+    --font-size-base: 1rem;
+    --font-size-xsmall: 0.75rem;
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1.125rem;
+    --font-size-large: 1.25rem;
+    --font-size-xlarge: 2rem;
+    --font-size-xxlarge: 3rem;
+    --font-size-xxxlarge: 6rem;
+
+    /* Colors **********/
+    --color-primary: #111226;
+    --color-secondary: #e4bc50;
+    --color-background: #ffffff;
+    --color-background-card-info: rgb(0 0 0 / 19%);
+    --color-text-light: #ffffff;
+    --color-text-dark: #000000;
+    --color-border-top-card-info: rgba(255, 255, 255, 0.222);
+    --color-card-numer: #ffffff6a;
+    --gradient-team-colors: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
+    --gradient-card-color: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.96));
+
+    /* Spacing **********/
+    --spacing-base: 1rem;
+    --spacing-xsmall: 0.25rem;
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    --spacing-xlarge: 3rem;
+    --spacing-xxlarge: 4rem;
+
+    /* Border radius **********/
+    --border-radius-base: 0.5rem;
+    --border-radius-large: 1rem;
+
+    /* Shadows **********/
+    --shadow-base: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    --shadow-large: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+    --shadow-heading: rgba(24, 26, 27, 0.5) 0px 0.1rem 0.2rem;
+
+    /* Font families **********/
+    --font-family-primary: "Roboto Regular", sans-serif;
+    --font-family-bold: "Roboto Bold", sans-serif;
+
+    /* Hover transformations **********/
+    --overlay-move-up: -60%;
+    --info-move-up: -105%;
+    --number-move-down: 50%;
+}

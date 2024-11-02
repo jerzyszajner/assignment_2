@@ -1,0 +1,159 @@
+/* Body content style  **********/
+body {
+    min-height: 100vh;
+    font-family: var(--font-family-primary);
+    background-color: var(--color-primary);
+}
+
+/* Main content style  **********/
+.team__squad-main {
+    max-width: 1500px;
+    min-width: 370px;
+    margin: 5% auto;
+    background-color: var(--color-background);
+    border-radius: var(--border-radius-base);
+}
+
+/* Styles for all team squad sections **********/
+.team__squad-section {
+    padding: var(--spacing-base);
+}
+
+.team__title {
+    text-align: center;
+    margin: var(--spacing-large);
+    font-family: var(--font-family-bold);
+    font-size: var(--font-size-xlarge);
+}
+
+/* Player card list **********/
+.team__card-list {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+}
+
+.team__card-list--coach {
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+
+/* Player card **********/
+.team__card {
+    position: relative;
+    overflow: hidden;
+}
+
+.team__card::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: var(--gradient-card-color);
+    z-index: 2;
+}
+
+.team__card:hover .team__card-overlay {
+    transform: translateY(var(--overlay-move-up));
+}
+
+.team__card:hover .team__card-number {
+    transform: translateY(var(--number-move-down));
+}
+
+.team__card:hover .team__card-info {
+    transform: translateY(var(--info-move-up));
+}
+
+.team__card-image {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team__card-overlay {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: var(--color-text-light);
+    bottom: 3%;
+    text-shadow: var(--shadow-base);
+    z-index: 3;
+    transition: transform 0.3s linear;
+}
+
+.team__card-number {
+    font-size: var(--font-size-xxxlarge);
+    color: var(--color-card-numer);
+    font-family: var(--font-family-bold);
+    z-index: 1;
+    position: relative;
+    transition: transform 0.3s linear;
+}
+
+.team__card-name {
+    font-size: var(--font-size-large);
+    z-index: 2;
+    position: relative;
+}
+
+.team__card-lname {
+    font-size: var(--font-size-xlarge);
+    font-family: var(--font-family-bold);
+}
+
+/* Player statistics **********/
+.team__card-info {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    background-color: var(--color-background-card-info);
+    padding: var(--spacing-small) 0;
+    z-index: 3;
+    transition: transform 0.3s linear;
+    border-top: 1px solid var(--color-border-top-card-info);
+}
+
+.team__card-statistic {
+    list-style: none;
+    display: flex;
+}
+
+.team__statistic {
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--font-family-bold);
+    line-height: var(--line-height-heading);
+}
+
+.team__statistic-title,
+.team__statistic-total,
+.team__statistic-season-name {
+    color: var(--color-text-light);
+}
+
+.team__statistic-title {
+    font-size: var(--font-size-xsmall);
+}
+
+.team__statistic-total {
+    font-size: var(--font-size-xlarge);
+}
+
+.team__statistic-season-name {
+    font-size: var(--font-size-xsmall);
+}
+
+.team__statistic-current-season {
+    font-size: var(--font-size-medium);
+    color: var(--color-secondary);
+}
+
+/* Styles for mobile devices and small screens **********/
+@media screen and (max-width: 600px) {
+    .team__squad-section {
+        padding: var(--spacing-xsmall);
+    }
+}
