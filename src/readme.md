@@ -25,3 +25,5 @@ Thank you to **FC Barcelona** for providing inspiration and reference material f
 
 **Disclaimer:** This is a student project and is not affiliated with or endorsed by FC Barcelona.
 
+## Visit the project on Netlify: 
+[https://fc-barcelona-demo.netlify.app/](https://fc-barcelona-demo.netlify.app/)

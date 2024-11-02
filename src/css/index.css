@@ -52,6 +52,7 @@ body {
     height: 50%;
     background: var(--gradient-card-color);
     z-index: 2;
+    pointer-events: none;
 }
 
 .team__card:hover .team__card-overlay {
