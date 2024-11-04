@@ -134,7 +134,7 @@ body {
 
 .team__statistic-title,
 .team__statistic-total,
-.team__statistic-season-name {
+.team__statistic-season-title {
     color: var(--color-text-light);
 }
 
@@ -146,11 +146,11 @@ body {
     font-size: var(--font-size-xlarge);
 }
 
-.team__statistic-season-name {
+.team__statistic-season-title {
     font-size: var(--font-size-xsmall);
 }
 
-.team__statistic-current-season {
+.team__statistic-current-value {
     font-size: var(--font-size-medium);
     color: var(--color-secondary);
 }
