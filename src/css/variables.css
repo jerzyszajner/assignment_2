@@ -44,7 +44,7 @@
     --font-family-bold: "Roboto Bold", sans-serif;
 
     /* Hover transformations **********/
-    --overlay-move-up: -60%;
+    --overlay-move-up: -70%;
     --info-move-up: -105%;
-    --number-move-down: 50%;
+    --number-move-down: 20%;
 }
